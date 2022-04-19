@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 32px;
+    width: 100%;
+  }
+  header {
+    background-color: black;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+  }
+
+  .cfo-talk{
+      position: relative;
+  }
+
+  .talk2{
+      font-size: 18px;
+      position: absolute;
+      left: 530px;
+      top: 135px;
+  }
+
+  .cfo{
+      text-align: left
+  }
+
+  .balloon4 {
+    position: absolute;
+    left: 350px;
+    top: -60px;
+
+    margin: 2em 0 2em 40px;
+    padding: 15px;
+    background: #fff0c6;
+    border-radius: 30px;
+    height: 100px;
+    font-size: 30px;
+  }
+  
+  .balloon4:before {  
+    content: "";
+    position: absolute;
+    left: -38px;
+    width: 13px;
+    height: 12px;
+    bottom: 0;
+    background: #fff0c6;
+    border-radius: 50%;
+  }
+  
+  .balloon4:after {
+    content: "";
+    position: absolute;
+    left: -24px;
+    width: 20px;
+    height: 18px;
+    bottom: 3px;
+    background: #fff0c6;
+    border-radius: 50%;
+  }
+  .balloon4 p {
+    margin: 0; 
+    padding: 0;
+  }
+
+  p {
+    font-size: 30px;
+    width: 250px;
+    text-align: center;
+    line-height: 150px;
+    height: 50px;
+  }
+
+  main {
+    width: 700px;
+    margin: auto;
+    display: block;
+ 
+    position: relative;
+  }
+  footer {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+  }
+ 
+  ul {
+    width: 700px;
+    padding: 0;
+    border-top: 1px solid #000000;
+    display: table; /* 定義 */
+    table-layout: fixed;
+    width: 96%;
+    font-size: 80%;
+    margin: 10px 3%;
+    text-align: center;
+  }
+  li {
+    list-style-type: none;
+    border: 1px solid #666;
+    background-color: #fff;
+    display: table-cell; /* 定義 */
+    cursor: pointer;
+    color: #0d7dfd;
+  }
+  li:hover {
+    background: #0d7dfd;
+    color: #fff;
+  }
+  textarea {
+    margin: 10px 3%;
+    position: absolute;
+    left: 400px;
+    top: 150px;
+    width: 250px;
+    height: 80px;
+    font-size: 80%;
+    box-shadow: 3px 3px 3px 3px #555;
+    background-color: rgb(241, 239, 239);
+  }
+
+  #key {
+    margin: 0 3%;
+    width: 95%;
+    font-size: 80%;
+    background-color: #fff0c6;
+    height: 100px;
+  }
+
+  table {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #8dc3f5;
+    width: 96%;
+    width: 700px;
+  }
+  th {
+    width: 50%;
+    font-size: 18px;
+    background-color: #d0e7fc;
+    border-bottom: 1px solid #8dc3f5;
+  }
+  td {
+    font-size: 16px;
+    background-color: rgb(241, 239, 239);
+    border-bottom: 1px solid #8dc3f5;
+  }
+  input {
+    margin: 10px 3%;
+    width: 95%;
+    height: 40px;
+    font-size: 80%;
+  }
+
+  .input-balloon{
+      outline: none;
+  }
+  
